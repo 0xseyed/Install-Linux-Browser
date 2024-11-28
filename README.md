@@ -1,4 +1,4 @@
-# Install Chromium Linux Browser
+# Install Chromium Browser
 Chromium is an open-source browser project that aims to build a safer, faster, and more stable build by Google
 * You can easily access a browser in your non-gui Linux server
 * You can easily run your Node Extensions 
@@ -63,7 +63,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/London
-      - CHROME_CLI=https://github.com/0xmoei #optional
+      - CHROME_CLI= google.com
     volumes:
       - /root/chromium/config:/config
     ports:
